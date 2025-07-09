@@ -321,7 +321,7 @@ export default function Home() {
       {/* about */}
       <div
         id="about"
-        className="relative bg-[#fee8ca] py-20 pb-10 overflow-hidden flex items-center justify-center md:border-t-2 border-t-2 border-black"
+        className="relative bg-[#fee8ca] py-20 pb-10 flex items-center justify-center md:border-t-2 border-t-2 border-black"
       >
         {/* hero.png as faint background */}
         <div className="absolute inset-0 w-full h-full md:top-0 hidden md:block">
@@ -329,7 +329,7 @@ export default function Home() {
             src="/hero.png"
             alt="hero background"
             fill
-            className="object-cover opacity-4"
+            className="object-cover opacity-4 overflow-visible"
             priority={false}
             draggable={false}
             style={{ pointerEvents: "none", userSelect: "none" }}
@@ -379,7 +379,7 @@ export default function Home() {
 
       <img
         src="/stupid.webp"
-        className="md:h-[500px] w-[300px] md:w-auto object-contain mx-auto"
+        className="md:h-[500px] w-[300px] md:w-auto object-contain mx-auto z-10 relative"
       />
 
       {/* tokenomics */}
@@ -655,7 +655,7 @@ export default function Home() {
           <div className="flex gap-4">
             {/* X/Twitter */}
             <a
-              href="https://x.com/yourhandle"
+              href="https://x.com/moomoo4chan"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter/X"
@@ -696,7 +696,7 @@ export default function Home() {
               </span>
             </a>
             <a
-              href="https://x.com/yourhandle"
+              href="https://x.com/moomoo4chan"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TG"
