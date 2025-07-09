@@ -12,19 +12,7 @@ const scrollToSection = (id) => {
   }
 };
 
-// Tailwind CSS custom animation (add to your global CSS if not already present):
-
-/*
-Add this to your global CSS (e.g., globals.css):
-
-@keyframes bounce-slow {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-24px); }
-}
-.animate-bounce-slow {
-  animation: bounce-slow 2.5s infinite;
-}
-*/
+console.log("MOO");
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
