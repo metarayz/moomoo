@@ -16,6 +16,8 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
+  console.log("test");
+
   // Handler for overlay click
   const handleOverlayClick = (e) => {
     // Only close if click is on the overlay itself, not inside the menu
