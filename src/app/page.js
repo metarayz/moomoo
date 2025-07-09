@@ -40,16 +40,21 @@ export default function Home() {
                 rel="noreferrer noopener"
                 className="text-right font-black text-[#025702] text-[30px] italic pr-3  hover:scale-105 hover:text-[#800]"
               >
-                <div>The OG 4Chan Bull</div>
+                <div className="right-5 relative">The OG 4Chan Bull</div>
               </a>
             </div>
           </div>
 
           <div className="flex gap-3 items-center absolute right-20 top-14">
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
-              <div className="size-20 relative">
+              <a
+                href="https://x.com/moomoo4chan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-20 relative"
+              >
                 <Image src="/x.svg" fill alt="x" />
-              </div>
+              </a>
             </div>
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <div className="size-22 relative">
@@ -189,7 +194,7 @@ export default function Home() {
       <div id="hero" className="h-[100dvh] relative overflow-x-hidden">
         <div
           className="absolute inset-0 mt-10 overflow-hidden bg-no-repeat bg-cover bg-center md:block hidden"
-          style={{ backgroundImage: "url('/hero3.webp')" }}
+          style={{ backgroundImage: "url('/herofinal.webp')" }}
         >
           <div
             className="absolute inset-0 pointer-events-none z-10 opacity-30"
@@ -250,7 +255,7 @@ export default function Home() {
             </a>
           </div>
           <div className="px-5">
-            <img src="/hero3.webp" className="object-cover rounded-xl " />
+            <img src="/herofinal.webp" className="object-cover rounded-xl " />
           </div>
 
           <div className="flex gap-2 items-center px-5 mt-5 relative z-10">
@@ -268,9 +273,14 @@ export default function Home() {
               </div>
             </div>
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
-              <div className="size-8 relative">
+              <a
+                href="https://x.com/moomoo4chan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-8 relative"
+              >
                 <Image src="/x.svg" fill alt="x" />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -659,7 +669,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter/X"
-              className="hover:scale-110 transition cursor-pointer"
+              className="hover:scale-110 transition cursor-pointer z-10"
             >
               <span className="block md:hidden">
                 <Image src="/x.svg" alt="X" width={28} height={28} />
@@ -699,7 +709,7 @@ export default function Home() {
               href="https://x.com/moomoo4chan"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="TG"
+              aria-label="tg"
               className="hover:scale-110 transition cursor-pointer"
             >
               <span className="block md:hidden">
