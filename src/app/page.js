@@ -56,11 +56,21 @@ export default function Home() {
                 <Image src="/x.svg" fill alt="x" />
               </a>
             </div>
-            {/* <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <div className="size-22 relative">
                 <Image src="/tg.svg" fill alt="tg" />
               </div>
-            </div> */}
+            </div>
+            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+              <a
+                href="https://dexscreener.com/ethereum/0xf43147f9f1bc40511bfe62097e18c948839b3b31"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-22 relative"
+              >
+                <Image src="/dexscreener.svg" fill alt="tg" />
+              </a>
+            </div>
             <button
               className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer"
               onClick={() => setMenuOpen((v) => !v)}
@@ -267,11 +277,23 @@ export default function Home() {
             >
               OPEN MENU
             </button>
-            {/* <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <div className="size-8 relative">
                 <Image src="/tg.svg" fill alt="tg" />
               </div>
-            </div> */}
+            </div>
+
+            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+              <a
+                href="https://dexscreener.com/ethereum/0xf43147f9f1bc40511bfe62097e18c948839b3b31"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-8 relative"
+              >
+                <Image src="/dexscreener.svg" fill alt="x" />
+              </a>
+            </div>
+
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <a
                 href="https://x.com/moomoo4chan"
@@ -663,7 +685,21 @@ export default function Home() {
           />
 
           <div className="flex gap-4">
-            {/* X/Twitter */}
+            <a
+              href="https://dexscreener.com/ethereum/0xf43147f9f1bc40511bfe62097e18c948839b3b31"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="tg"
+              className="hover:scale-110 transition cursor-pointer"
+            >
+              <span className="block md:hidden">
+                <Image src="/dexscreener.svg" alt="tg" width={28} height={28} />
+              </span>
+              <span className="hidden md:block">
+                <Image src="/dexscreener.svg" alt="tg" width={40} height={40} />
+              </span>
+            </a>
+
             <a
               href="https://x.com/moomoo4chan"
               target="_blank"
@@ -676,6 +712,21 @@ export default function Home() {
               </span>
               <span className="hidden md:block">
                 <Image src="/x.svg" alt="X" width={40} height={40} />
+              </span>
+            </a>
+
+            <a
+              href="https://x.com/moomoo4chan"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="tg"
+              className="hover:scale-110 transition cursor-pointer"
+            >
+              <span className="block md:hidden">
+                <Image src="/tg.svg" alt="tg" width={28} height={28} />
+              </span>
+              <span className="hidden md:block">
+                <Image src="/tg.svg" alt="tg" width={40} height={40} />
               </span>
             </a>
 
@@ -705,20 +756,6 @@ export default function Home() {
                 />
               </span>
             </a>
-            {/* <a
-              href="https://x.com/moomoo4chan"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="tg"
-              className="hover:scale-110 transition cursor-pointer"
-            >
-              <span className="block md:hidden">
-                <Image src="/tg.svg" alt="tg" width={28} height={28} />
-              </span>
-              <span className="hidden md:block">
-                <Image src="/tg.svg" alt="tg" width={40} height={40} />
-              </span>
-            </a> */}
           </div>
         </div>
         <div className="text-black font-semibold mt-2 text-center md:text-base text-sm">
