@@ -463,7 +463,7 @@ export default function Home() {
                   Total Supply
                 </span>
                 <span className="md:text-2xl text-lg font-bold text-[black]">
-                  1,000,000,000
+                  777,777,777
                 </span>
               </div>
               <div className="bg-white border-1 border-[#800] rounded shadow p-6 py-2 flex flex-col items-start break-all">
