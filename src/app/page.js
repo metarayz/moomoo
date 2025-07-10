@@ -57,9 +57,14 @@ export default function Home() {
               </a>
             </div>
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
-              <div className="size-22 relative">
+              <a
+                href="https://t.me/moomooeth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-22 relative"
+              >
                 <Image src="/tg.svg" fill alt="tg" />
-              </div>
+              </a>
             </div>
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <a
@@ -278,9 +283,14 @@ export default function Home() {
               OPEN MENU
             </button>
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
-              <div className="size-8 relative">
+              <a
+                href="https://t.me/moomooeth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="size-8 relative"
+              >
                 <Image src="/tg.svg" fill alt="tg" />
-              </div>
+              </a>
             </div>
 
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
@@ -716,7 +726,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://x.com/moomoo4chan"
+              href="https://t.me/moomooeth"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="tg"
