@@ -56,11 +56,11 @@ export default function Home() {
                 <Image src="/x.svg" fill alt="x" />
               </a>
             </div>
-            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+            {/* <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <div className="size-22 relative">
                 <Image src="/tg.svg" fill alt="tg" />
               </div>
-            </div>
+            </div> */}
             <button
               className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer"
               onClick={() => setMenuOpen((v) => !v)}
@@ -267,11 +267,11 @@ export default function Home() {
             >
               OPEN MENU
             </button>
-            <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
+            {/* <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <div className="size-8 relative">
                 <Image src="/tg.svg" fill alt="tg" />
               </div>
-            </div>
+            </div> */}
             <div className="p-2 size-[50px] flex items-center justify-center flex-col gap-1 bg-[#fee8ca] border-2 border-[#800] aspect-square shadow-lg transition hover:scale-110 cursor-pointer">
               <a
                 href="https://x.com/moomoo4chan"
@@ -423,7 +423,7 @@ export default function Home() {
                   Ticker
                 </span>
                 <span className="md:text-2xl text-lg font-bold text-[black]">
-                  $moomoo
+                  $MOOMOO
                 </span>
               </div>
               <div className="bg-white border-1 border-[#800] rounded shadow p-6 py-2 flex flex-col items-start">
@@ -440,7 +440,7 @@ export default function Home() {
                   className="font-bold md:text-lg text-xs select-all text-[black]"
                   id="contract-address"
                 >
-                  0xdAC17F958D2ee523a2206206994597C13D831ec7
+                  0x64442fe778f00b7d7ed1863b9327ca29342cf461
                 </span>
               </div>
             </div>
@@ -449,7 +449,7 @@ export default function Home() {
               <button
                 className="px-4 py-2 rounded border-2 bg-[#800] text-white border-[#800] md:w-[300px] w-full cursor-pointer font-bold hover:bg-[#800] hover:text-[#fee8ca] transition hover:scale-105"
                 onClick={() => {
-                  const ca = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
+                  const ca = "0x64442fe778f00b7d7ed1863b9327ca29342cf461";
                   navigator.clipboard.writeText(ca);
                   window.alert("Contract address copied to clipboard!");
                 }}
@@ -526,7 +526,7 @@ export default function Home() {
                 Connect your wallet and paste the $moomoo contract address:
                 <br />
                 <span className="break-all font-mono md:text-lg bg-[#fee8ca] px-2 py-1 rounded border border-[#800] inline-block mt-2 w-full text-center">
-                  0xdAC17F958D2ee523a2206206994597C13D831ec7
+                  0x64442fe778f00b7d7ed1863b9327ca29342cf461
                 </span>
               </li>
               <li>
@@ -705,7 +705,7 @@ export default function Home() {
                 />
               </span>
             </a>
-            <a
+            {/* <a
               href="https://x.com/moomoo4chan"
               target="_blank"
               rel="noopener noreferrer"
@@ -718,7 +718,7 @@ export default function Home() {
               <span className="hidden md:block">
                 <Image src="/tg.svg" alt="tg" width={40} height={40} />
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="text-black font-semibold mt-2 text-center md:text-base text-sm">
