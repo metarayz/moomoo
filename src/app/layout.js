@@ -17,16 +17,9 @@ const displayFont = Agbalumo({
 });
 
 export const metadata = {
-  title: "moomoo",
+  title: "MOOMOO THE BULL",
   description: "The OG 4Chan Bull",
 };
-
-// const displayFont = localFont({
-//   src: "../fonts/tt.ttf",
-//   variable: "--font-display",
-//   fallback: ["system-ui", "Helvetica Neue", "Helvetica", "Arial"],
-//   display: "swap",
-// });
 
 export default function RootLayout({ children }) {
   return (
